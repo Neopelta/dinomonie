@@ -1,0 +1,410 @@
+/* ####################################### */
+/* ################ FONTS ################ */
+/* ####################################### */
+
+@font-face {
+    font-family: Luciole;
+    src: url("../Fonts/Luciole-Regular.ttf") format("woff");
+}
+
+/* ####################################### */
+/* ###### CSS POUR TOUTES LES PAGES ###### */
+/* ####################################### */
+
+*{
+    font-family: 'Luciole', arial;
+    text-align: justify;
+}
+
+/* PRINCIPALE */
+
+#main {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* TITRES */
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+/* HAUT DE PAGE */
+
+#header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    position: static;
+}
+
+#header img {
+    width: 125px;
+    margin-left: 20px;
+}
+
+/* MENU DE NAVIGATION */
+
+.top-nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.top-nav a {
+    font-size: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.top-nav a:hover {
+    font-size: 150%;
+}
+
+/* TITRE DU SITE */
+
+.big-title {
+    font-size: 5em;
+    text-align: center;
+    margin: auto;
+}
+
+/* PIED DE PAGE */
+
+#footer {
+    min-width: 100%;;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 3%;
+}
+
+#footer p {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* ####################################### */
+/* ####### CSS POUR LA PAGE INDEX ######## */
+/* ####################################### */
+.home>p>#date {
+    border: none;
+  }
+
+.school {
+    padding: 1em;
+    border: 2px solid #000000;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.home {
+    margin: auto;
+    width: 85%;
+}
+
+.home p {
+    font-size: 1.2em;
+}
+
+/* BOUTON ACCEDEZ AU PRIX */
+
+.button {
+    border: none;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.button {
+    background-color: #FFFFFF; 
+    color: #000000; 
+    border: 2px solid #000000;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#imgLogo {
+    margin-top: 1em;
+    margin-bottom: -1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.mail p{
+    margin-top: 2%;
+    display: block;
+    text-align: center;
+}
+
+/* ####################################### */
+/* ###### CSS POUR LA PAGE CONTACT ####### */
+/* ####################################### */
+
+.formular {
+    margin: auto;
+    width: 85%;
+}
+
+/* ####################################### */
+/* ######## CSS POUR LA PAGE PRIX ######## */
+/* ####################################### */
+
+/* DESCRIPTION DES PRIX */
+
+.price-desc {
+    padding: 1.5em;
+    border: 2px solid #000000;
+    border-radius: 20px 0px 20px 0px;
+    font-size: 1.2em;
+}
+
+/* IMAGES DES JEUX */
+
+.game img {
+    width: 50%;
+    min-height: 125px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 30px 10px 30px 10px;
+    display: block;
+}
+
+/* CLASSEMENT DES JEUX */
+
+.content{
+    margin: auto;
+    width: 85%;
+}
+
+.game .rang p{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.game .title p {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.game .columns .date {
+    font-size: 1em;
+    text-align: center;
+    margin: 0%;
+}
+
+.game .columns .dev p{
+    font-size: 1em;
+    text-align: center;
+    margin: 0%;
+}
+
+.game .columns .desc p{
+    font-size: 1em;
+    text-align: center;
+    margin: 0%;
+}
+
+.game .columns .synopsis {
+    margin-bottom: 5em;
+    font-size: 1.2em;
+}
+
+.game .columns .synopsis:first-letter {
+    font-size: 200%;
+}
+
+/* ####################################### */
+/* ####### CSS POUR LA PAGE SITEMAP ###### */
+/* ####################################### */
+
+/* ####################################### */
+/* ######### CSS POUR LA PAGE CGU ######## */
+/* ####################################### */
+
+.cgu-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cgu-margin h3 {
+    text-align: center;
+}
+
+/* ####################################### */
+/* ############# FICHE JEU ############### */
+/* ####################################### */
+
+.image-game {
+    width: 50%;
+    min-height: 125px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 30px 10px 30px 10px;
+    display: block;
+}
+
+.contenant .texte-rate{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    font-size: large;
+}
+
+.info h3 {
+    text-align: center;
+}
+
+.info .content-rating p {
+    text-align: center;
+}
+
+.meta table{
+    margin: auto;
+    text-align: center;
+    table-layout:fixed;
+    width:100%;
+}
+
+.meta table tr th {
+    text-align: end;
+}
+
+.box-resume {
+    margin: 5%;
+}
+
+.box-time {
+    width: 75%;
+    margin: 3% auto 3% auto;
+    padding: 1.5em;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #000000;
+}
+
+.box-time table{
+    margin: auto;
+    text-align: center;
+    table-layout:fixed;
+    width:100%;
+}
+
+.box-time td, .box-time th {
+    text-align: center;
+}
+
+
+/* ####################################### */
+/* ############### AUTRES ################ */
+/* ####################################### */
+
+/* BARRE HORIZONTALE */
+
+hr {
+    border: none;
+    border-top: 3px double #000000;
+    color: #000000;
+    overflow: visible;
+    text-align: center;
+    margin: auto;
+    height: 5px;
+    width: auto;
+}
+
+hr:after {
+    background: #fff; 
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.margin-hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/* ####################################### */
+/* ############### Formulaire ################ */
+/* ####################################### */
+
+legend {
+    width: 100%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform : uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.2em;
+}
+
+fieldset {
+    margin-bottom: 1%;
+}
+
+form>fieldset{
+    border: 2px solid black;
+}
+
+fieldset>p>label {
+    display: flow-root;
+}
+
+table>tbody>tr>td>input {
+    margin-left:35%;
+}
+
+li {
+    list-style-type: none;
+}
+
+fieldset:last-child>div {
+    text-align : center
+}
+
+fieldset>p>span {
+    font-size: x-large;
+}

@@ -1,0 +1,571 @@
+/* ####################################### */
+/* ################ FONTS ################ */
+/* ####################################### */
+
+@font-face {
+  font-family: "MBHouse";
+  font-display: swap;
+  src: url("../fonts/M-B-Creative-MBPictureHouseOne-Bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham";
+  font-display: swap;
+  src: url("../fonts/GothaProReg.otf") format("opentype");
+}
+
+/* ####################################### */
+/* ###### CSS POUR TOUTES LES PAGES ###### */
+/* ####################################### */
+
+/* PARAMETRE */
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body,
+textarea,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  line-height: 1.5;
+}
+
+p,
+ul,
+ol,
+td,
+th,
+textarea,
+label {
+  font-size: medium;
+  line-height: 1.5;
+  margin: 0.5em 0 0.5em 0;
+  text-align: justify;
+}
+
+p:first-child,
+ul:first-child,
+ol:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child {
+  margin-top: 0;
+}
+
+div,
+textarea,
+table,
+td,
+th {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
+
+/* COULEURS DES TITRES */
+
+h1 {
+  font-size: xx-large;
+  line-height: 1.6154em;
+  margin: 0 0 0 0;
+  color: #bda873;
+}
+
+h2 {
+  font-size: xx-large;
+  line-height: 1.75em;
+  margin: 0 0 0 0;
+  color: #bda873;
+}
+
+/* PRINCIPALE */
+
+#main {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* HAUT DE PAGE */
+
+#header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#header img {
+  width: 125px;
+  margin-left: 20px;
+}
+
+/* MENU DE NAVIGATION */
+
+.top-nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.top-nav a {
+  font-size: large;
+  text-decoration: none;
+  color: #bda873;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* ARRIERE PLAN */
+
+#section {
+  min-width: 100%;
+}
+
+#section.top-page {
+  background: url("../images/fond_ecran.jpg");
+  background-size: cover;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3) inset;
+}
+
+/*  */
+
+.page-home {
+  padding: 0px 60px;
+  margin: auto;
+}
+
+/* TITRE DU SITE */
+
+.big-title {
+  font-size: 5em;
+  text-align: center;
+  font-family: "MBHouse", cursive;
+  margin: auto;
+  align-items: center;
+}
+
+/* PIED DE PAGE */
+
+#footer {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 3%;
+}
+
+#footer p {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+/* ####################################### */
+/* ####### CSS POUR LA PAGE INDEX ######## */
+/* ####################################### */
+
+.home {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.school {
+  background-color: #ffffff;
+  padding: 1.5em;
+  border: 2px solid #f3ddc7;
+  border-radius: 20px 0px 20px 0px;
+  font-size: large;
+  text-align: justify;
+}
+
+.school p::first-letter {
+  font-size: 200%;
+}
+
+/* ANIMATED BUTTON */
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-image: linear-gradient(
+    to right,
+    #bda873,
+    rgba(141, 141, 141, 1)
+  ) !important;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: x-large;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.mail p {
+  margin-top: 2%;
+  text-align: center;
+}
+
+#imgLogo {
+  margin-top: 1em;
+  margin-bottom: -1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home>p>#date {
+  border: none;
+}
+
+/* ####################################### */
+/* ######## CSS POUR LA PAGE PRIX ######## */
+/* ####################################### */
+
+.content {
+  margin: auto;
+  width: 85%;
+}
+
+/* DESCRIPTION DES PRIX */
+
+.price-desc {
+  background-color: #fff8e0;
+  padding: 1.5em;
+  border: 2px solid #f3ddc7;
+  border-radius: 20px 0px 20px 0px;
+  font-size: large;
+  text-align: justify;
+}
+
+.price-desc::first-letter {
+  font-size: 200%;
+}
+
+/* CADRES JEUX */
+
+.game {
+  display: inline-block;
+  width: 400px;
+  height: 525px;
+  vertical-align: middle;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: solid 2px #bda873;
+}
+
+.game p {
+  color: #000000;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* IMAGE JEU */
+
+.game img {
+  width: 50%;
+  min-height: 125px;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 30px 10px 30px 10px;
+  margin-bottom: 0%;
+  margin-top: 5%;
+}
+
+/* IMAGES DES JEUX */
+
+.first {
+  border: 5px solid #bda873;
+}
+
+.second {
+  border: 5px solid #c0c0c0;
+}
+
+.third {
+  border: 5px solid #cd7f32;
+}
+
+.content {
+  margin: auto;
+  width: 85%;
+}
+
+/* CLASSEMENT 1, 2 et 3 */
+
+.game .rang p {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin: 0%;
+}
+
+/* TITRE DU JEU */
+
+.game .title p {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin: 0%;
+}
+
+/* DATE DE SORTIE DU JEU */
+
+.game .columns .date {
+  font-size: 1em;
+  text-align: center;
+  margin: 0%;
+}
+
+/* DEVELOPPEUR AND CIE */
+
+.game .columns .dev p {
+  font-size: 1em;
+  text-align: center;
+  margin: 0%;
+}
+
+/* GENRE DU JEU */
+
+.game .columns .desc p {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+/* SYNOPSIS DU JEU */
+
+.game .columns .synopsis {
+  margin-bottom: 5em;
+  font-size: 1.2em;
+}
+
+.game .columns .synopsis:first-letter {
+  font-size: 200%;
+}
+
+.game .columns .synopsis p {
+  font-size: medium;
+  text-align: justify;
+}
+
+/* ####################################### */
+/* ####### CSS POUR LA PAGE SITEMAP ###### */
+/* ####################################### */
+
+#sitemap {
+  text-align: left;
+  width: 60%;
+  margin: 2.5% auto 2.5% auto;
+}
+
+/* ####################################### */
+/* ######### CSS POUR LA PAGE CGU ######## */
+/* ####################################### */
+
+.cgu-margin {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* ####################################### */
+/* ########## TABLEAU SYNOPTIQUE ######### */
+/* ####################################### */
+
+.tftable {
+  font-size: 12px;
+  color: #333333;
+  width: 100%;
+  border-width: 1px;
+  border-color: #a9a9a9;
+  border-collapse: collapse;
+}
+.tftable th {
+  font-size: 12px;
+  background-color: #b8b8b8;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #a9a9a9;
+  text-align: left;
+}
+.tftable tr {
+  background-color: #cdcdcd;
+}
+.tftable td {
+  font-size: 12px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #a9a9a9;
+}
+.tftable tr:hover {
+  background-color: #ffffff;
+}
+
+/* ####################################### */
+/* ############### AUTRES ################ */
+/* ####################################### */
+
+/* LIGNE HORIZONTAL */
+
+hr {
+  border: none;
+  border-top: 3px double #bda873;
+  color: #bda873;
+  overflow: visible;
+  text-align: center;
+  margin: auto;
+  height: 5px;
+  width: 400px;
+}
+
+hr:after {
+  background: #fff;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.margin-hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.image {
+  justify-self: end;
+  align-self: start;
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border: 5px solid #bda873;
+}
+
+/* ####################################### */
+/* ############## FORMULAIRE ############# */
+/* ####################################### */
+
+#formulaire {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+legend {
+  width: 100%;
+  border: 2px solid #bda873;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.2em;
+}
+
+fieldset {
+  margin-bottom: 1%;
+}
+
+form > fieldset {
+  border: 2px solid #bda873;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table > thead > tr > th {
+  border: 2px solid blue;
+}
+
+td {
+  border: 1px solid black;
+}
+
+tr > td:first-child {
+  padding: 0 50px 0 0;
+}
+
+fieldset > p > label {
+  display: flow-root;
+}
+
+table > tbody > tr > td > input {
+  margin-left: 35%;
+}
+
+li {
+  list-style-type: none;
+}
+
+fieldset:last-child > div {
+  text-align: center;
+}
+
+fieldset > p > span {
+  font-size: x-large;
+}

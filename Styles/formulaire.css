@@ -1,0 +1,68 @@
+
+/* ####################################### */
+/* ############## FORMULAIRE ############# */
+/* ####################################### */
+
+h1 {
+    font-size:xx-large;
+    line-height: 1.6154em;
+    margin: 0 0 0 0;
+    color: #bda873;
+    text-align: center;
+}
+
+legend {
+    width: 100%;
+    border: 2px solid #bda873;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform : uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.2em;
+}
+
+fieldset {
+    margin-bottom: 1%;
+}
+
+form>fieldset{
+    border: 2px solid #bda873;
+}
+
+table{
+    border-collapse: collapse
+}
+
+table>thead>tr>th {
+    border : 2px solid blue
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr>td:first-child {
+    padding: 0 50px 0 0;
+}
+
+fieldset>p>label {
+    display: flow-root;
+}
+
+table>tbody>tr>td>input {
+    margin-left:35%;
+}
+
+li {
+    list-style-type: none;
+}
+
+fieldset:last-child>div {
+    text-align : center
+}
+
+fieldset>p>span {
+    font-size: x-large;
+}

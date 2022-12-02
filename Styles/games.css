@@ -1,0 +1,291 @@
+/* ####################################### */
+/* ################ FONTS ################ */
+/* ####################################### */
+
+@font-face {
+    font-family: 'MBHouse';
+    font-display: swap;
+    src: url("../fonts/M-B-Creative-MBPictureHouseOne-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-display: swap;
+    src: url("../fonts/GothaProReg.otf") format("opentype");
+}
+
+/* ####################################### */
+/* ###### CSS POUR TOUTES LES PAGES ###### */
+/* ####################################### */
+
+/* PARAMETRE */
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+html, body, textarea, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    line-height: 1.5;
+}
+
+p, ul, ol, td, th, textarea, label{
+    font-size:medium;
+    line-height: 1.5;
+    margin : 0.5em 0 0.5em 0;
+    text-align: justify;
+}
+
+p:first-child,
+ul:first-child,
+ol:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child
+{
+	margin-top: 0;
+}
+
+div, textarea, table, td, th {
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+}
+
+/* COULEURS DES TITRES */
+
+h1 {
+    font-size:xx-large;
+    line-height: 1.6154em;
+    margin: 0 0 0 0;
+    color: #bda873;
+}
+
+h2 {
+    font-size:xx-large;
+    line-height: 1.75em;
+    margin: 0.875em 0 0 0;
+    color: #bda873;
+}
+
+/* PRINCIPALE */
+
+#main {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* HAUT DE PAGE */
+
+#header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top : 0;
+    z-index: 100;
+}
+
+#header img {
+    width: 125px;
+    margin-left: 20px;
+}
+
+/* MENU DE NAVIGATION */
+
+.top-nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.top-nav a {
+    font-size: large;
+    text-decoration: none;
+    color: #bda873;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+/* ARRIERE PLAN */
+
+#section {
+    min-width: 100%;
+}
+
+#section.top-page{
+    background: url("../images/fond_ecran.jpg");
+    background-size:cover;
+    height: 45vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3) inset;
+}
+
+/*  */
+
+.page-home {
+    padding: 0px 60px;
+    margin: auto;
+}
+
+/* TITRE DU SITE */
+
+.big-title {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'MBHouse', cursive;
+    margin: auto;
+    align-items: center;
+}
+
+/* PIED DE PAGE */
+
+#footer {
+    min-width: 100%;;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 3%;
+}
+
+#footer p {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+/* ####################################### */
+/* ################ JEUX ################# */
+/* ####################################### */
+
+.image-game {
+    height: 50%;
+    min-height: 125px;
+    max-height: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 30px 30px 30px 30px;
+    display: block;
+}
+
+/* Texte au dessus de l'image */
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: 'MBHouse';
+}
+  
+.texte-rate {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 0.8;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.texte-rate b {
+    color :greenyellow;
+}
+  
+
+.box-time {
+    width: 50%;
+    margin: 3% auto 3% auto;
+    padding: 1.5em;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #f3ddc7;
+}
+
+.box-time table{
+    margin: auto;
+    text-align: center;
+    table-layout:fixed;
+    width:100%;
+}
+
+.box-time table td + td,
+.box-time table th + th { 
+    border-left:2px solid black; }
+
+.box-time td, .box-time th {
+    text-align: center;
+}
+
+.box-resume {
+    border-radius: 30px 30px 30px 30px;
+    margin: auto;
+    padding: 1em;
+    border: 2px solid #f3ddc7;
+    width: 75%;
+}
+
+.info, .meta {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 45%;
+    vertical-align: top;
+    margin: 1%; 
+}
+
+.meta td {
+    text-align:left;
+}
+
+/* ####################################### */
+/* ############### AUTRES ################ */
+/* ####################################### */
+
+/* LIGNE HORIZONTAL */
+
+hr {
+    border: none;
+    border-top: 3px double #bda873;
+    color: #bda873;
+    overflow: visible;
+    text-align: center;
+    margin: auto;
+    height: 5px;
+    width: 400px;
+}
+
+hr:after {
+    background: #fff; 
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.margin-hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

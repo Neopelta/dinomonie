@@ -1,0 +1,35 @@
+<!ENTITY % month "(1|2|3|4|5|6|7|8|9|10|11|12)">
+<!ENTITY % day "(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31)">
+<!ENTITY % year "CDATA">
+
+<!ELEMENT top (prix+)>
+
+<!ELEMENT prix (jeu*)>
+<!ATTLIST prix
+        nomPrix     CDATA       #REQUIRED
+        desc        CDATA       #IMPLIED>
+
+<!ELEMENT jeu (titre, image?, sortie, desc, infoSup)>
+<!ATTLIST jeu
+        classement (1|2|3) "1">
+<!ELEMENT titre     (#PCDATA)>
+
+<!ELEMENT sortie EMPTY>
+<!ATTLIST sortie
+        jour    %day;           #IMPLIED
+        mois    %month;         #IMPLIED
+        annee   %year;          #REQUIRED>
+
+<!ELEMENT infoSup (dev+, edit+, dist*, genre+, console+)>
+
+<!ELEMENT desc      (#PCDATA)>
+<!ELEMENT dev       (#PCDATA)>
+<!ELEMENT edit      (#PCDATA)>
+<!ELEMENT dist      (#PCDATA)>
+<!ELEMENT genre     (#PCDATA)>
+<!ELEMENT console   (#PCDATA)>
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+        src         CDATA       #REQUIRED
+        alt         CDATA       #REQUIRED>

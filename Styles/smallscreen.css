@@ -1,0 +1,156 @@
+@media only screen and (max-width: 720px) {
+  p,
+  ul,
+  ol,
+  td,
+  th,
+  textarea,
+  label {
+    font-size: 1em;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-size: 2em;
+    line-height: 1.6em;
+    margin: 0.8077em 0 0 0;
+  }
+
+  h2 {
+    font-size: 1.75em;
+    line-height: 1.75em;
+    margin: 0.875em 0 0 0;
+  }
+
+  .home > p > #date {
+    border: none;
+  }
+
+  .big-title {
+    font-size: 2.5em;
+  }
+
+  #main {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .sitemap {
+    display: inline-block;
+    width: 60%;
+    margin: 2.5% auto 2.5% auto;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    position: static;
+    top: 0;
+    z-index: 100;
+  }
+
+  #header img {
+    width: 80px;
+    margin-left: 0px;
+  }
+
+  /* Menu de navigation */
+
+  .top-nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .top-nav a {
+    font-size: 0.8em;
+    text-decoration: none;
+  }
+
+  .top-nav a:hover {
+    text-decoration: underline;
+  }
+
+  /* CASE JEU */
+  .game {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+  }
+
+  .game p {
+    color: #000;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .game .columns .synopsis p {
+    font-size: medium;
+    text-align: justify;
+  }
+
+  .game .columns .synopsis {
+    font-size: medium;
+    text-align: justify;
+    margin: auto;
+  }
+
+  .game img {
+    width: 50%;
+    min-height: 20%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 30px 10px 30px 10px;
+  }
+
+  .game .columns div {
+    width: 100%;
+    min-height: 0px;
+    margin: auto;
+    padding: 5px;
+  }
+
+  .margin-hr {
+    width: 75%;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  .school {
+    font-size: medium;
+  }
+
+  .image-game {
+    width: 85%;
+  }
+
+  .info,
+  .meta {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 95%;
+    vertical-align: top;
+  }
+
+  .box-time,
+  .box-resume {
+    width: 85%;
+    padding: 0.5em;
+  }
+
+  /*Formulaire*/
+  #formulaire {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}

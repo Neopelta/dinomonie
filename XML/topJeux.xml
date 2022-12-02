@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE top SYSTEM "topJeux.dtd">
+
+<top>
+    <prix   nomPrix="Meilleur jeu d'aventure"
+            desc="Vivre une aventure extraordinaire, se plonger dans les plus belles histoires du monde virtuel, c'est ce que je recherche dans le jeu vidéo. Je vous présente alors mon top 3 des meilleurs jeux d'aventure auquel j'ai pu jouer :">
+        <jeu classement="1">
+            <titre>The Last of Us II</titre>
+            <image src="image/theLastofUsII.jpg" alt="Image avec le titre du jeu The Last of Us II."/>
+            <sortie jour="19" mois="6" annee="2020"/>
+            <desc>Cinq ans après les événements du premier opus, Ellie et Joel s’installent dans le Wyoming. La vie en communauté leur apporte une certaine stabilité, malgré la menace que représentent les infectés. Quand un violent incident vient troubler cette paix, Ellie entame une implacable quête de justice.</desc>
+            <infoSup>
+                <dev>Naughty Dog</dev>
+                <edit>Sony Interactive Entertainment</edit>
+                <genre>Action-Aventure</genre>
+                <genre>Infiltration</genre>
+                <genre>Survival horror</genre>
+                <console>PlayStation 4 et 5</console>
+            </infoSup>
+        </jeu>
+        <jeu classement="2">
+            <titre>Red dead redemption II</titre>
+            <image src="image/RedDeadRedemptionII.jpg" alt="Image avec le titre du jeu Read Dead Redemption II."/>
+            <sortie jour="26" mois="10" annee="2018"/>
+            <desc>Découvrez l'histoire d’Arthur Morgan et de la bande de Van der Linde qui, lors de leur parcours à travers les vastes terres sauvages d’Amérique, n’auront d’autre choix que de piller et de se battre pour survivre.</desc>
+            <infoSup>
+                <dev>Rockstar North</dev>
+                <dev>Rockstar San Diego</dev>
+                <edit>Rockstar Games</edit>
+                <genre>Action-Aventure</genre>
+                <console>PlayStation 4</console>
+                <console>Xbox One</console>
+                <console>PC</console>
+                <console>Stadia</console>
+            </infoSup>
+        </jeu>
+        <jeu classement="3">
+            <titre>The Legend of Zelda: Breath of the Wild</titre>
+            <image src="image/BOTW.jpg" alt="Image avec le titre du jeu The Legend of Zelda: Breath of the Wild."/>
+            <sortie jour="3" mois="3" annee="2017"/>
+            <desc>Après un long sommeil, Link se réveille seul dans un monde qu'il ne reconnaît pas. Il devra explorer un territoire aussi vaste que dangereux afin de retrouver la mémoire. En quête de réponses, il devra se servir de tout ce qui se trouve sur sa route pour survivre.</desc>
+            <infoSup>
+                <dev>Nintendo EPD</dev>
+                <dev>Monolith Software</dev>
+                <edit>Nintendo</edit>
+                <genre>Action-Aventure</genre>
+                <console>Wii U</console>
+                <console>Nintendo Switch</console>
+            </infoSup>
+        </jeu>
+    </prix>
+    <prix nomPrix="Meilleur jeu à choix multiple"
+          desc="Avoir le sentiment de créer sa propre histoire, c'est sympa, pas vrai ? Je vous propose mon top 3 des jeux narratifs à choix multiples des plus intéressants :">
+        <jeu classement="1">
+            <titre>Disco Elysium</titre>
+            <image src="image/DiscoElysiumTheFinalCut.jpg" alt="Image avec le titre du jeu Disco Elysium: Final Cut."/>
+            <sortie jour="15" mois="10" annee="2019"/>
+            <desc>Jeu de rôle isométrique axé sur l'investigation, Disco Elysium nous propose de résoudre une grande enquête ouverte dans le XXème siècle alternatif de Revachol West, une ville côtière où le niveau de corruption n'a d'égal que l'impunité avec laquelle sont commis les meurtres. </desc>
+            <infoSup>
+                <dev>ZA/UM Studio</dev>
+                <edit>ZA/UM Studio</edit>
+                <genre>RPG</genre>
+                <genre>Fiction interactive</genre>
+                <console>PC</console>
+                <console>PlaySation 4 et 5</console>
+                <console>Nintendo Switch</console>
+                <console>Xbox One et Serie X/S</console>
+            </infoSup>
+        </jeu>
+        <jeu classement="2">
+            <titre>Detroit: Become Human</titre>
+            <image src="image/detroit.jpg" alt="Image avec le titre du jeu Detroit: Become human."/>
+            <sortie jour="25" mois="5" annee="2018"/>
+            <desc>Detroit: Become Human met le destin de l'humanité et des androïdes entre vos mains, dans un futur proche où les machines sont devenues plus intelligentes que les hommes. Tous vos choix ont une incidence sur la suite du jeu.</desc>
+            <infoSup>
+                <dev>Quantic Dream</dev>
+                <dev>David Cage</dev>
+                <dev>XDev Europe</dev>
+                <edit>Sony Interactive Entertainment</edit>
+                <genre>Aventure</genre>
+                <genre>Fiction interactive</genre>
+                <console>PlayStation 4</console>
+                <console>PC</console>
+            </infoSup>
+        </jeu>
+        <jeu classement="3">
+            <titre>Twelve Minutes</titre>
+            <image src="image/12minutes.jpg" alt="Image avec le titre du jeu 12 minutes"/>
+            <sortie jour="19" mois="8" annee="2021"/>
+            <desc>Twelve Minutes est une fiction interactive où le personnage revit en boucle les 12 mêmes minutes. Votre but est de changer le cours des événements afin de vous libérer de cette boucle.</desc>
+            <infoSup>
+                <dev>Luis Antonio</dev>
+                <edit>Annapurna Interactive</edit>
+                <genre>Aventure</genre>
+                <genre>Fiction interactive</genre>
+                <console>PC</console>
+                <console>Xbox One et serie X/S</console>
+                <console>PlayStation 4 et 5</console>
+                <console>Nintendo Switch</console>
+            </infoSup>
+        </jeu>
+    </prix>
+    <prix nomPrix="Meilleur jeu en coopération"
+          desc="Que ce soit sur le canapé ou en ligne, c'est toujours plus amusant de jouer à plusieurs. Voici mon top 3 des meilleurs jeux coopératif :">
+        <jeu classement="2">
+            <titre>It Takes Two</titre>
+            <image src="ittakestwo.jpg" alt="Image avec le titre du jeu It Takes Two"/>
+            <sortie jour="26" mois="3" annee="2021"/>
+            <desc>Un jeune couple se retrouve transformé en poupées et doivent réparer leur relation afin de revenir dans le monde des humains.</desc>
+            <infoSup>
+                <dev>Hazelight</dev>
+                <edit>Electronic Arts</edit>
+                <genre>Plateforme</genre>
+                <genre>Action-Aventure</genre>
+                <console>PC</console>
+                <console>Xbox One et serie X/S</console>
+                <console>PlayStation 4 et 5</console>
+            </infoSup>
+        </jeu>
+        <jeu classement="2">
+            <titre>Phasmophobia</titre>
+            <image src="image/Phasmaphobia.jpg" alt="Image avec le titre du jeu Phasmaphobia."/>
+            <sortie jour="18" mois="9" annee="2020"/>
+            <desc>Phasmophobia est un jeu d'horreur psychologique où vous devrez explorer divers endroits et utiliser votre équipement de chasseur de fantômes afin d'enregistrer autant de preuves que possible.</desc>
+            <infoSup>
+                <dev>Kinetic Games</dev>
+                <edit>Kinetic Games</edit>
+                <genre>Aventure</genre>
+                <genre>Survival horror</genre>
+                <console>PC</console>
+            </infoSup>
+        </jeu>
+        <jeu classement="3">
+            <titre>Overcooked</titre>
+            <image src="image/overcooked.jpg" alt="Image avec le titre du jeu Overcooked"/>
+            <sortie jour="3" mois="6" annee="2016"/>
+            <desc>Overcooked est un jeu de cuisine chaotique de coopération en local pour un à quatre joueurs. En travaillant en équipe, vos camarades cuisiniers et vous devez préparer, cuisiner et servir toute une variété de plats délicieux avant que le client affamé ne claque la porte.</desc>
+            <infoSup>
+                <dev>Ghost Town Games Ltd.</dev>
+                <edit>Team17</edit>
+                <genre>Party game</genre>
+                <genre>Action</genre>
+                <genre>Simulation</genre>
+                <console>PC</console>
+                <console>Xbox One</console>
+                <console>PlayStation 4</console>
+                <console>Nintendo Switch</console>
+            </infoSup>
+        </jeu>
+    </prix>
+</top>
