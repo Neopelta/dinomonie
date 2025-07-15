@@ -140,20 +140,23 @@ Designer par BEN MECKE-BURFORD.
 ## Captures d'écran
 
 Les captures d'écran du projet sont disponibles dans le dossier :
-`.\SITE_PLUTA_Ronan\Images\readme\`
+`.\dinomonie\Images\readme\`
 
 ### Liste des captures d'écran :
 
-- **La-Dinomonie-La-cérémonie-des-jeux-vidéo.webp**  
+- **[La-Dinomonie-La-ceremonie-des-jeux-video.webp](./Images/readme/La-Dinomonie-La-ceremonie-des-jeux-video.webp)**  
   Capture d'écran de la page principale du site
 
-- **La-Dinomonie-Les-prix.webp**  
+- **[La-Dinomonie-Les-prix.webp](./Images/readme/La-Dinomonie-Les-prix.webp)**  
   Capture d'écran de la page des prix et récompenses
 
-- **La-Dinomonie-Les-prix-sitemap.webp**  
+- **[La-Dinomonie-Les-prix-fiche.webp](./Images/readme/La-Dinomonie-Les-prix-fiche.webp)**  
+  Capture d'écran d'une fiche de jeu
+
+- **[La-Dinomonie-Les-prix-sitemap.webp](./Images/readme/La-Dinomonie-Les-prix-sitemap.webp)**  
   Capture d'écran de la page du plan du site
 
-- **La-Dinomonie-Questionnaire.webp**  
+- **[La-Dinomonie-Questionnaire.webp](./Images/readme/La-Dinomonie-Questionnaire.webp)**  
   Capture d'écran de la page du formulaire questionnaire
 
 Ces captures permettent de visualiser l'interface et le design du site sans avoir besoin de l'ouvrir dans un navigateur.
