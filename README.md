@@ -9,7 +9,7 @@ ______ _                                   _
 |___/ |_|_| |_|\___/|_| |_| |_|\___/|_| |_|_|\___|
 ```
 
-Site internet créé et imaginé par **Ronan PLUT FONTAINE**.
+Site internet créé et imaginé par **Ronan PLUTA FONTAINE**.
 
 - **VERSION :** 22W18c
 - **UTILISATION :** XHTML, CSS, Javascript
